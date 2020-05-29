@@ -24,7 +24,7 @@ export default function Body () {
         <Text>
           Hecho a mano 🔨❤️🇨🇱
           <br />
-          Fácil de instalar, anclaje 100% seguro
+          Fácil de instalar y anclaje 100% seguro
         </Text>
 
         <Text>
