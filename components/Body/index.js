@@ -17,7 +17,7 @@ export default function Body () {
       </Title>
 
       <Subtitle>
-        Sácale provecho del espacio en tu balcón 🙌
+        Sácale provecho a tu balcón 🙌
       </Subtitle>
 
       <div>
