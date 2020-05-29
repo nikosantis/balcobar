@@ -6,7 +6,8 @@ import {
   Social,
   Network,
   Instagram,
-  Facebook
+  Facebook,
+  Whatsapp
 } from './styles'
 
 export default function Body () {
@@ -24,7 +25,7 @@ export default function Body () {
         <Text>
           Hecho a mano 🔨❤️🇨🇱
           <br />
-          Fácil de instalar y anclaje 100% seguro
+          Barra para baranda de balcón, fácil de instalar, con sistema de anclaje resistente y seguro.
         </Text>
 
         <Text>
@@ -41,6 +42,12 @@ export default function Body () {
           <Network>
             <a href='https://www.facebook.com/BalcobarChile' target='_blank' rel='noreferrer' alt='Balcobar Facebook'>
               <Facebook />
+            </a>
+          </Network>
+
+          <Network>
+            <a href='https://wa.me/56956032764' target='_blank' rel='noreferrer' alt='Balcobar Whatsapp'>
+              <Whatsapp />
             </a>
           </Network>
         </Social>

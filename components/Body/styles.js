@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FaInstagram, FaFacebookSquare } from 'react-icons/fa'
+import { FaInstagram, FaFacebookSquare, FaWhatsapp } from 'react-icons/fa'
 
 export const Container = styled.main`
   display: flex;
@@ -54,5 +54,9 @@ export const Instagram = styled(FaInstagram)`
 `
 
 export const Facebook = styled(FaFacebookSquare)`
+  color: ${props => props.theme.colors.primary};
+`
+
+export const Whatsapp = styled(FaWhatsapp)`
   color: ${props => props.theme.colors.primary};
 `
