@@ -10,12 +10,12 @@ function useDarkMode () {
   const [theme, setTheme] = useState('light')
 
   function toggleTheme () {
-    if (theme === 'light') {
-      localStorage.setItem('theme', 'dark')
-      setTheme('dark')
-    } else {
+    if (theme === 'dark') {
       localStorage.setItem('theme', 'light')
       setTheme('light')
+    } else {
+      localStorage.setItem('theme', 'dark')
+      setTheme('dark')
     }
   }
 

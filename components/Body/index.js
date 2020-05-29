@@ -28,7 +28,7 @@ export default function Body () {
         </Text>
 
         <Text>
-          Síguenos en nuestras redes sociales ✨❤️:
+          Síguenos en nuestras redes sociales ⬇️ 👀
         </Text>
 
         <Social>

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTheme } from '../../contexts/theme-context'
 import {
   Container,
@@ -11,8 +11,13 @@ import {
 } from './styles'
 
 export default function ThemeToggle () {
-  const { toggleTheme } = useTheme()
+  const { theme, toggleTheme } = useTheme()
   const [isChecked, setIsChecked] = useState(false)
+
+  useEffect(() => {
+    setIsChecked(theme === 'dark')
+  }, [theme])
+
   function changeColor () {
     toggleTheme()
     setIsChecked(isChecked => !isChecked)
