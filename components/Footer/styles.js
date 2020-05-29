@@ -5,8 +5,7 @@ export const Container = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 100%;
-  padding: 1rem 0;
+  padding: 15px 15px;
 `
 
 export const Copyright = styled.p`

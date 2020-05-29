@@ -6,7 +6,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 3rem 0;
+  padding: 20px 0;
 `
 
 export const ImageBox = styled.div`

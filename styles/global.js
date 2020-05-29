@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${props => props.theme.colors.background};
     font-family: 'Roboto', sans-serif;
   }
-  h1, h2, h3 {
+  p, h1, h2, h3 {
     margin: 0;
   }
 `
