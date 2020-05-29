@@ -8,6 +8,7 @@ export default function Home () {
     <Layout
       title='Balcobar | Sácale provecho a tu balcón 🙌'
       description='Hecho a mano 🔨❤️🇨🇱, Fácil de instalar y anclaje 100% seguro. Sácale provecho a tu balcón 🙌 con Balcobar.'
+      url='https://balcobar.now.sh/'
     >
       <Header />
       <Body />
