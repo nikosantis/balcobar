@@ -12,7 +12,7 @@ export const Box = styled.div`
   width: 100%;
 
   ${mq.sm`
-    width: 480px;
+    width: 100%;
   `}
 
   ${mq.md`
