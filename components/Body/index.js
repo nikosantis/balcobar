@@ -1,3 +1,4 @@
+import BalcobarCarousel from '../BalcobarCarousel'
 import {
   Container,
   Title,
@@ -13,13 +14,17 @@ import {
 export default function Body () {
   return (
     <Container>
-      <Title>
-        Balcobar
-      </Title>
+      <BalcobarCarousel />
 
-      <Subtitle>
-        Sácale provecho a tu balcón 🙌
-      </Subtitle>
+      <div>
+        <Title>
+          Balcobar
+        </Title>
+
+        <Subtitle>
+          Sácale provecho a tu balcón 🙌
+        </Subtitle>
+      </div>
 
       <div>
         <Text>

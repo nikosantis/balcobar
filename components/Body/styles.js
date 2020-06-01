@@ -8,6 +8,7 @@ export const Container = styled.main`
   align-items: center;
   padding: 25px 15px;
   height: 100%;
+  width: 100%;
 `
 
 export const Title = styled.h1`
