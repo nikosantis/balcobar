@@ -7,52 +7,51 @@ import {
   Image
 } from './styles'
 
-const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 992 },
-    items: 1
-  },
-  tablet: {
-    breakpoint: { max: 991, min: 769 },
-    items: 1
-  },
-  mobile: {
-    breakpoint: { max: 768, min: 0 },
-    items: 1
-  }
-}
-
-const slides = [
-  {
-    src: '/images/slide1.jpg'
-  },
-  {
-    src: '/images/slide2.jpg'
-  },
-  {
-    src: '/images/slide3.jpg'
-  },
-  {
-    src: '/images/slide4.jpg'
-  },
-  {
-    src: '/images/slide5.jpg'
-  },
-  {
-    src: '/images/slide6.jpg'
-  },
-  {
-    src: '/images/slide7.jpg'
-  },
-  {
-    src: '/images/slide8.jpg'
-  },
-  {
-    src: '/images/slide9.jpg'
-  }
-]
-
 export default function BalcobarCarousel () {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 992 },
+      items: 1
+    },
+    tablet: {
+      breakpoint: { max: 991, min: 769 },
+      items: 1
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1
+    }
+  }
+
+  const slides = [
+    {
+      src: '/images/slide1.jpg'
+    },
+    {
+      src: '/images/slide2.jpg'
+    },
+    {
+      src: '/images/slide3.jpg'
+    },
+    {
+      src: '/images/slide4.jpg'
+    },
+    {
+      src: '/images/slide5.jpg'
+    },
+    {
+      src: '/images/slide6.jpg'
+    },
+    {
+      src: '/images/slide7.jpg'
+    },
+    {
+      src: '/images/slide8.jpg'
+    },
+    {
+      src: '/images/slide9.jpg'
+    }
+  ]
   return (
     <Container>
       <Box>
